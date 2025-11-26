@@ -45,6 +45,5 @@ Docs are available at `/docs` and `/redoc`.
 ## Docker
 
 ```bash
-docker build -t evaluations-api .
-docker run -p 8000:8000 --env SNAPAUTH_BASE_URL=http://localhost:8080 evaluations-api
+make docker
 ```
